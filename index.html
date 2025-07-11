@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+
+    <link rel="shortcut icon" href="iconss.svg" type="image/x-icon">
+
+    <title>Box Shadow Generator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container__top">
+            <div class="container__top-preview">
+                <div class="result" id="result"></div>
+            </div>
+            <div class="container__top-controls">
+                <div class="parameter">
+                    <div class="text">Horizontal Shadow</div>
+                    <input type="range" class="range" id="horizontal-shadow"></input>
+                </div>
+                <div class="parameter">
+                    <div class="text">Vertical Shadow</div>
+                    <input type="range" class="range" id="vertical-shadow"></input>
+                </div>
+                <div class="parameter">
+                    <div class="text">Blur Radius</div>
+                    <input type="range" class="range" id="blur-radius"></input>
+                </div>
+                <div class="parameter">
+                    <div class="text">Spread Radius</div>
+                    <input type="range" class="range" id="spread-radius"></input>
+                </div>
+                <div class="parameter">
+                    <div class="text">Border Radius</div>
+                    <input type="range" class="range" id="border-radius"></input>
+                </div>
+                <div class="parameter">
+                    <div class="text">Shadow Opacity</div>
+                    <input type="range" class="range" id="shadow-opacity"></input>
+                </div>
+                <div class="parameter inset">
+                    <div class="text">Inset</div>
+                    <input type="checkbox" id="inset"></input>
+                </div>
+                <div class="parameter shadow">
+                    <div class="text">Shadow Color</div>
+                    <input type="color" id="shadow-color"></input>
+                </div>
+            </div>
+        </div>
+
+        <div class="container__bottom">
+            <div class="container__bottom-code"></div>
+            <div class="container__bottom-copy">
+                Copy Code
+            </div>
+        </div>
+    </div>
+</body>
+</html>
